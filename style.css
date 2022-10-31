@@ -1,0 +1,149 @@
+@media screen and (max-width: 960px) {
+    .navbar{
+        font-size: 2vh;
+        display: flex;
+    }
+    .navbar-container{
+        margin-right: ;
+    }
+  }
+  
+*{
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
+.sidebar {
+    width: 3%;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4%;
+    font-size: 20px;
+    align-items: center;
+   
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    padding: 0 3%;
+    height: 100%;
+    color: white;
+    font-family: 'Sen', sans-serif;
+}
+.logo-container{
+    flex: 1;
+}
+.menu-container{
+    flex: 6;
+
+}
+.menu-list-item.active{
+    font-weight: bold;
+}
+.menu-list {
+    display: flex;
+    list-style: none;
+    margin-left: 5%;
+}
+.menu-list-item{
+    margin-right: 8%;
+}
+.profile-container{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.toggle-icon{
+    color: goldenrod;
+}
+.profile-text-container {
+    margin: 0 2%;
+}
+.toggle-ball{
+    width: 18px;
+height: 18px;
+background-color: black;
+position: absolute;
+right: 1px;
+border-radius: 50%;
+cursor: pointer;
+}
+.toggle{
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.logo{
+    color: #fca311;
+    font-size: 30px;
+    font-family: 'Sen', sans-serif;
+}
+.profile-picture{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.left-menu-icon{
+    color: white;
+    margin-bottom: 100%;
+}
+.container{
+    background-color: #151515;
+    height: 100%;
+    color: white;
+    width: 100%;
+}
+.content-container{
+    margin-left: 4%;
+}
+.featured-books {
+    
+     padding: 2%;
+  
+}
+.featured-title{
+    width: 190px;
+    height: 50vh;
+}
+.content-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+p{
+    font-size: 2.5vh;
+}
+button{
+    width: 190px;
+    height: 25px;
+    background-color: #14213d;
+    color: white;
+    margin-top: 5%;
+    border-style: none;
+}
+button:hover{
+    background-color: #003049;
+}
+.featured-title:hover {
+    opacity: 0.3;
+  }
+.sidebar i:hover{
+    opacity: 0.5;
+}
